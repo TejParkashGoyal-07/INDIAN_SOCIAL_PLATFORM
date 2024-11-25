@@ -1,4 +1,4 @@
-# Ignore the backend folder
+# Ignore backend and frontend directories
 backend/
 frontend/
 
@@ -6,29 +6,29 @@ frontend/
 node_modules/
 
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
 
-
+# OS-specific files
 .DS_Store
 Thumbs.db
 
-
+# Environment variables
 .env
 
 # IDE/editor config files
 .vscode/
 .idea/
 
-# Build directories
+# Build and output directories
 dist/
 build/
 
-# Temporary files
+# Temporary and swap files
 *.tmp
 *.swp
-frontend/
-# Package lock files (optional, if you want to include them in the repo, remove these lines)
+
+# Package manager lock files (optional: remove these lines if lock files are necessary)
 package-lock.json
 yarn.lock
